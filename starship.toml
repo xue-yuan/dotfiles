@@ -1,0 +1,109 @@
+[character]
+symbol = "➜"
+error_symbol = "✗"
+use_symbol_for_status = true
+
+[docker_context]
+symbol = "🐋 "
+disabled = false
+only_with_files = true
+
+[python]
+symbol = " "
+pyenv_version_name = true
+
+[package]
+symbol = " "
+
+[username]
+disabled = false
+show_always = true
+style_root = "cyan"
+style_user = "bold #666699"
+format = "[$user]($style) in "
+
+[directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
+style = "cyan"
+
+[cmd_duration]
+style = "bold dimmed white"
+
+[hostname]
+disabled = false
+ssh_only = false
+style = "bold #e6005c"
+format = "[$hostname]($style)[:🍺]($style) "
+
+[git_branch]
+style = "yellow"
+format = "on [$symbol]($style)[git:]($style)[\\($branch\\)]($style) "
+symbol = " "
+
+[gcloud]
+disabled = true
+
+[aws]
+symbol = " "
+
+[battery]
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
