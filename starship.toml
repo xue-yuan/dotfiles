@@ -1,5 +1,5 @@
 [character]
-symbol = "➜"
+success_symbol = "➜"
 error_symbol = "✗"
 use_symbol_for_status = true
 
@@ -11,6 +11,7 @@ only_with_files = true
 [python]
 symbol = " "
 pyenv_version_name = true
+format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
 
 [package]
 symbol = " "

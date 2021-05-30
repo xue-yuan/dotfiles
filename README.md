@@ -1,2 +1,3 @@
-# dotfiles
-Some Configurations.
+# dotfiles 🧇
+
+This is my dotfiles.

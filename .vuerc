@@ -1,10 +1,7 @@
 {
-  "useTaobaoRegistry": true,
-  "packageManager": "yarn",
-  "latestVersion": "4.5.9",
-  "lastChecked": 1608883576109,
+  "useTaobaoRegistry": false,
   "presets": {
-    "general": {
+    "vue3": {
       "useConfigFiles": true,
       "plugins": {
         "@vue/cli-plugin-babel": {},
@@ -20,65 +17,7 @@
           ]
         }
       },
-      "cssPreprocessor": "node-sass"
-    },
-    "class": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-pwa": {},
-        "@vue/cli-plugin-router": {
-          "historyMode": true
-        },
-        "@vue/cli-plugin-vuex": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "airbnb",
-          "lintOn": [
-            "save"
-          ]
-        },
-        "@vue/cli-plugin-unit-jest": {}
-      },
-      "cssPreprocessor": "node-sass"
-    },
-    "class-with-hash": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-pwa": {},
-        "@vue/cli-plugin-router": {
-          "historyMode": false
-        },
-        "@vue/cli-plugin-vuex": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "airbnb",
-          "lintOn": [
-            "save"
-          ]
-        },
-        "@vue/cli-plugin-unit-jest": {}
-      },
-      "cssPreprocessor": "node-sass"
-    },
-    "light-app": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-typescript": {
-          "classComponent": true,
-          "useTsWithBabel": true
-        },
-        "@vue/cli-plugin-pwa": {},
-        "@vue/cli-plugin-router": {
-          "historyMode": false
-        },
-        "@vue/cli-plugin-eslint": {
-          "config": "base",
-          "lintOn": [
-            "save"
-          ]
-        }
-      },
+      "vueVersion": "3",
       "cssPreprocessor": "node-sass"
     }
   }
