@@ -1,7 +1,6 @@
 [character]
 success_symbol = "➜"
 error_symbol = "✗"
-use_symbol_for_status = true
 
 [docker_context]
 symbol = "🐋 "
@@ -58,9 +57,6 @@ symbol = " "
 [dart]
 symbol = " "
 
-[docker]
-symbol = " "
-
 [elixir]
 symbol = " "
 
@@ -69,9 +65,6 @@ symbol = " "
 
 [golang]
 symbol = " "
-
-[haskell]
-symbol = " "
 
 [hg_branch]
 symbol = " "
@@ -108,3 +101,4 @@ symbol = " "
 
 [swift]
 symbol = "ﯣ "
+

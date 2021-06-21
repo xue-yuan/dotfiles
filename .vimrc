@@ -31,5 +31,6 @@ hi CursorLine cterm=none ctermbg=DarkGrey ctermfg=White
 
 au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
 au BufWrite /private/etc/pw.* set nowritebackup nobackup
+au FileType gitcommit setlocal tw=72
 
 syntax enable
